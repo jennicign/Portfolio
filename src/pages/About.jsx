@@ -18,7 +18,7 @@ import { FaJs, FaPython, FaGitAlt } from "react-icons/fa";
 
 const personalQuote = 'I enjoy solving problems — especially the ones that try to stay hidden.';
 const professionalSummary = `
-I'm a software developer with a focus on data and human-centered systems. Based in the NJ/NYC metro area, I come from a background in public health — where I developed a deep respect for systems that serve people, and a problem-solving mindset rooted in empathy.
+I'm a software developer with a focus on data and human-centered systems. Based in the NJ/NYC metro area, I come from a background in public health — where I developed a deep respect for systems that serve people and a problem-solving mindset rooted in empathy.
 
 Now working with financial data,  I work to bring clarity to disorganized systems and surface insights that support clear direction and help drive meaningful progress. I’m especially interested in building tools that make complex processes feel cleaner, more intuitive, and less overwhelming.
 
