@@ -36,25 +36,29 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
   
   return (
-    <nav className="navigation px-4 py-2 text-offWhite bg-gridBlack font-pixel z-50 sticky top-0">
-      {/* Desktop view */}
-      <section>
-        <h1 className="text-2xl font-bold">Jenn’s Portfolio 💾</h1>
-      </section>
+    <nav className="navigation px-6 py-4 text-gridBlack bg-white/10 backdrop-blur-md font-pixel sticky top-0 z-50 border-b border-gray-300 flex justify-between items-center">
+      
+      <div className="text-xl font-bold whitespace-nowrap">
+        Jennifer Ignacio <span className="font-normal">| Portfolio</span>
+      </div>
 
       <section className="hidden md:flex gap-6 items-center">
         <button onClick={() => scrollToSection("home")} className="hover:text-serenity">
           Home
         </button>
+        <span>|</span>
         <button onClick={() => scrollToSection("projects")} className="hover:text-serenity">
           Projects
         </button>
+        <span>|</span>
         <button onClick={() => scrollToSection("about")} className="hover:text-serenity">
           About
         </button>
+        <span>|</span>
         <button onClick={() => scrollToSection("contact")} className="hover:text-serenity">
           Contact
         </button>
+        <span>|</span>
         <DownloadResume />
       </section>
 
