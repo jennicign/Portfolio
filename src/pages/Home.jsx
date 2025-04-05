@@ -1,6 +1,6 @@
 // import { NavLink } from "react-router-dom";
 // import PlaceholderHero from '../assets/placeholder_hero_background.jpg'
-import WindowSection from "../components/WindowSection";
+import WindowSection from "../components/WindowSmall";
 import Headshot from '../assets/headshot 2.jpeg';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiTableau } from "react-icons/si";

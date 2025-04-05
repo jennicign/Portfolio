@@ -103,7 +103,7 @@ const Projects = () => {
                   href={project.repositoryLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-black text-white font-pixel text-sm px-3 py-2 rounded hover:bg-roseQuartz hover:text-black transition"
+                  className="inline-flex items-center bg-black text-white font-pixel text-sm px-3 py-2 rounded hover:bg-skyBlue hover:text-black transition"
                 >
                   <FaGithub className="mr-2" />
                   View on GitHub
