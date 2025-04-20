@@ -1,5 +1,4 @@
-// import { NavLink } from "react-router-dom";
-// import PlaceholderHero from '../assets/placeholder_hero_background.jpg'
+
 import WindowSection from "../components/WindowSmall";
 import Headshot from '../assets/headshot 2.jpeg';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -39,13 +38,13 @@ const Home = () => {
             />
             <br />
             <div className="flex gap-4 mt-4">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/jennicign" target="_blank" rel="noopener noreferrer">
                 <FaGithub size={24} className="hover:text-serenity transition" />
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/jennifer-ignacio/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={24} className="hover:text-serenity transition" />
               </a>
-              <a href="https://public.tableau.com/app/profile/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://public.tableau.com/app/profile/jennifer.ignacio/vizzes" target="_blank" rel="noopener noreferrer">
                 <SiTableau size={24} className="hover:text-serenity transition" />
               </a>
             </div>
